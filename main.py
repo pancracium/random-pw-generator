@@ -1,5 +1,5 @@
 ###############################################
-# RANDOM PASSWORD GENERATOR [v0.5 13-03-2023] #
+# RANDOM PASSWORD GENERATOR [v1.0 13-03-2023] #
 ###############################################
 
 #Import necessary modules
