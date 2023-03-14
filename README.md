@@ -33,3 +33,17 @@ Click this to copy the password to your clipboard.
 ### SAVE BUTTON
 
 Click this to save your random password to a file.
+
+## How to convert to an executable:
+
+- Download the code as a zip file and unzip it to a folder
+
+- Open that folder with the terminal
+
+- Run this command:
+` pip install pyinstaller `
+
+- And lastly, run this one:
+` pyinstaller --onedir --noconsole --noconfirm --name "Random PW Generator" --icon "icon.ico" --add-data "icon.ico;." --add-data "tooltip.py;." --add-data "README.md;." main.py `
+
+- Open the dist folder and run the app.
